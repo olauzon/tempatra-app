@@ -4,5 +4,8 @@
 require File.join(File.dirname(__FILE__), 'lib', 'tempatra_app.rb')
 
 disable :run
-set :environment, :development
+
+# Uncomment to run in development mode on Heroku
+#set :environment, :development
+
 run TempatraApp
